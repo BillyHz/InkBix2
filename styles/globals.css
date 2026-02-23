@@ -1,0 +1,26 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+:root {
+  --primary: #007BFF;
+  --magenta: #FF2E63;
+  --yellow: #FFC107;
+  --bg: #F9FAFB;
+  --bg-dark: #1F2937;
+}
+
+html, body, #__next {
+  height: 100%;
+}
+body {
+  margin: 0;
+  font-family: Roboto, ui-sans-serif, system-ui;
+  background: var(--bg);
+  color: #0f172a;
+}
+
+/* Utility tweaks for consistency */
+.container {
+  max-width: 1200px;
+}
